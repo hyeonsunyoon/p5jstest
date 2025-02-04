@@ -1,7 +1,9 @@
 let t = 0;
 
 function setup() {
-  createCanvas((v = 500), (w = 804));
+  w = window.innerWidth;
+  h = window.innerHeight;
+  createCanvas(w,h);
   colorMode(HSB, 255);
 }
 
